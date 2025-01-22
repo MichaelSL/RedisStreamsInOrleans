@@ -126,4 +126,3 @@ class Build : NukeBuild
             GitTasks.Git($"push origin {gitTag}");
         });
 }
-}
